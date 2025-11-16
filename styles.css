@@ -248,6 +248,13 @@ a {
 .contact-info.hint-active {
     animation: subtlePulse 2s ease-in-out infinite;
 }
+.project-image {
+    width: 100%;
+    max-width: 400px;   /* gør billedet mindre */
+    display: block;
+    margin: 20px auto;  /* centrerer billedet */
+    border-radius: 6px;
+}
 
 @keyframes subtlePulse {
     0%, 100% { opacity: 1; }
